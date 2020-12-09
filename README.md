@@ -1,2 +1,4 @@
 # Hazel
-Hazel Engine build based on yt tutorial
+Hazel Engine 
+
+This build is based on yt tutorial from The Cherno channel
