@@ -22,7 +22,7 @@ namespace Hazel {
 	{
 	public:
 		KeyPressedEvent(int keycode, int repeatCount)
-			: keyEvent(keycode), m_RepeatCount(repeatCount) {}
+			: KeyEvent(keycode), m_RepeatCount(repeatCount) {}
 
 		inline int GetRepeatCount() const { return m_RepeatCount; }
 
