@@ -1,9 +1,9 @@
 #include "hzpch.h"
 #include "WindowsWindow.h"
 
-#include "Hazel\Events\KeyEvent.h"
-#include "Hazel\Events\MouseEvent.h"
-#include "Hazel\Events\ApplicationEvent.h"
+#include "Hazel/Events/KeyEvent.h"
+#include "Hazel/Events/MouseEvent.h"
+#include "Hazel/Events/ApplicationEvent.h"
 
 #include <glad/glad.h>
 
