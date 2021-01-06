@@ -1,6 +1,8 @@
 #pragma once
 
 #include "Hazel/Window.h"
+#include "Hazel/Renderer/GraphicsContext.h"
+
 #include "GLFW/glfw3.h"
 
 struct GLFWwindow;
@@ -33,6 +35,7 @@ namespace Hazel {
 		virtual void Shutdown();
 	private:
 		GLFWwindow* m_Window;
+		GraphicsContext* m_Context;
 
 		struct WindowData
 		{

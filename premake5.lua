@@ -108,7 +108,6 @@ project "Sandbox"
 		"Hazel/src",
 		"Hazel/vendor",
 		"%{IncludeDir.glm}"
-
 	}
 
 	links
